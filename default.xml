@@ -43,10 +43,10 @@
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="development" name="CarbonDev/android_development" />
-  <project path="device/asus/deb" name="CarbonDev/android_device_asus_deb" />
-  <project path="device/asus/flo" name="CarbonDev/android_device_asus_flo" />
-  <project path="device/asus/grouper" name="CarbonDev/android_device_asus_grouper" />
-  <project path="device/asus/tilapia" name="CarbonDev/android_device_asus_tilapia" />
+  <project path="device/sony/yuga" name="reaper61616/android_device_sony_yuga" />
+  <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" remote="cm" revision="cm-10.2" />
   <project path="device/common" name="CyanogenMod/android_device_common" remote="cm" revision="cm-10.2" />
   <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="device/generic/common" name="device/generic/common" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -58,77 +58,7 @@
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="device/htc/endeavoru" name="CarbonDev/android_device_htc_endeavoru" />
-  <project path="device/htc/evita" name="CarbonDev/android_device_htc_evita" />
-  <project path="device/htc/m7-common" name="CarbonDev/android_device_htc_m7-common" />
-  <project path="device/htc/m7att" name="CarbonDev/android_device_htc_m7att" />
-  <project path="device/htc/m7spr" name="CarbonDev/android_device_htc_m7spr" />
-  <project path="device/htc/m7tmo" name="CarbonDev/android_device_htc_m7tmo" />
-  <project path="device/htc/m7ul" name="CarbonDev/android_device_htc_m7ul" />
-  <project path="device/htc/msm8960-common" name="CarbonDev/android_device_htc_msm8960-common" />
-  <project path="device/htc/s4-common" name="CarbonDev/android_device_htc_s4-common" />
-  <project path="device/htc/tegra3-common" name="CarbonDev/android_device_htc_tegra3-common" />
-  <project path="device/lge/mako" name="CarbonDev/android_device_lge_mako" />
-  <project path="device/motorola/mb886" name="CarbonDev/android_device_motorola_mb886" />
-  <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
-  <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" remote="cm" revision="cm-10.2" />
-  <project path="device/motorola/xt897" name="CarbonDev/android_device_motorola_xt897" />
-  <project path="device/motorola/xt897c" name="CarbonDev/android_device_motorola_xt897c" />
-  <project path="device/motorola/xt907" name="CarbonDev/android_device_motorola_xt907" />
-  <project path="device/motorola/xt925" name="CarbonDev/android_device_motorola_xt925" />
-  <project path="device/motorola/xt926" name="CarbonDev/android_device_motorola_xt926" />
-  <project path="device/oppo/find5" name="CarbonDev/android_device_oppo_find5" />
   <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
-  <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/celox-common" name="CyanogenMod/android_device_samsung_celox-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/crespo" name="CarbonDev/android_device_samsung_crespo" />
-  <project path="device/samsung/d2-common" name="CarbonDev/android_device_samsung_d2-common" />
-  <project path="device/samsung/d2att" name="CarbonDev/android_device_samsung_d2att" />
-  <project path="device/samsung/d2cri" name="CarbonDev/android_device_samsung_d2cri" />
-  <project path="device/samsung/d2mtr" name="CarbonDev/android_device_samsung_d2mtr" />
-  <project path="device/samsung/d2spr" name="CarbonDev/android_device_samsung_d2spr" />
-  <project path="device/samsung/d2tmo" name="CarbonDev/android_device_samsung_d2tmo" />
-  <project path="device/samsung/d2usc" name="CarbonDev/android_device_samsung_d2usc" />
-  <project path="device/samsung/d2vzw" name="CarbonDev/android_device_samsung_d2vzw" />
-  <project path="device/samsung/d710" name="CarbonDev/android_device_samsung_d710" />
-  <project path="device/samsung/exhilarate" name="CarbonDev/android_device_samsung_exhilarate" />
-  <project path="device/samsung/galaxys2-common" name="CarbonDev/android_device_samsung_galaxys2-common" />
-  <project path="device/samsung/hercules" name="CarbonDev/android_device_samsung_hercules" />
-  <project path="device/samsung/i605" name="CarbonDev/android_device_samsung_i605" />
-  <project path="device/samsung/i777" name="CarbonDev/android_device_samsung_i777" />
-  <project path="device/samsung/i9100" name="CarbonDev/android_device_samsung_i9100" />
-  <project path="device/samsung/i9300" name="CarbonDev/android_device_samsung_i9300" />
-  <project path="device/samsung/i9305" name="CarbonDev/android_device_samsung_i9305" />
-  <project path="device/samsung/infuse4g" name="CarbonDev/android_device_samsung_infuse4g" />
-  <project path="device/samsung/jflteatt" name="CarbonDev/android_device_samsung_jflteatt" />  
-  <project path="device/samsung/jf-common" name="CarbonDev/android_device_samsung_jf-common" />
-  <project path="device/samsung/jfltetmo" name="CarbonDev/android_device_samsung_jfltetmo" />
-  <project path="device/samsung/jfltespr" name="CarbonDev/android_device_samsung_jfltespr" />
-  <project path="device/samsung/jflteusc" name="CarbonDev/android_device_samsung_jflteusc" />
-  <project path="device/samsung/jfltevzw" name="CarbonDev/android_device_samsung_jfltevzw" />
-  <project path="device/samsung/jfltexx" name="CarbonDev/android_device_samsung_jfltexx" />
-  <project path="device/samsung/l900" name="CarbonDev/android_device_samsung_l900" />
-  <project path="device/samsung/maguro" name="CarbonDev/android_device_samsung_maguro" />
-  <project path="device/samsung/manta" name="CarbonDev/android_device_samsung_manta" />
-  <project path="device/samsung/msm8660-common" name="CyanogenMod/android_device_samsung_msm8660-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/n7000" name="CarbonDev/android_device_samsung_n7000" />
-  <project path="device/samsung/n7100" name="CarbonDev/android_device_samsung_n7100" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/quincyatt" name="CarbonDev/android_device_samsung_quincyatt" />
-  <project path="device/samsung/quincytmo" name="CarbonDev/android_device_samsung_quincytmo" />
-  <project path="device/samsung/quincy-common" name="CyanogenMod/android_device_samsung_quincy-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/skyrocket" name="CarbonDev/android_device_samsung_skyrocket" />
-  <project path="device/samsung/smdk4412-common" name="CyanogenMod/android_device_samsung_smdk4412-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="cm" revision="cm-10.2" />
-  <project path="device/samsung/t0lte" name="CarbonDev/android_device_samsung_t0lte" />
-  <project path="device/samsung/t0lteatt" name="CarbonDev/android_device_samsung_t0lteatt" />
-  <project path="device/samsung/t0ltetmo" name="CarbonDev/android_device_samsung_t0ltetmo" />
-  <project path="device/samsung/t769" name="CarbonDev/android_device_samsung_t769" />
-  <project path="device/samsung/toro" name="CarbonDev/android_device_samsung_toro" />
-  <project path="device/samsung/toroplus" name="CarbonDev/android_device_samsung_toroplus" />
-  <project path="device/samsung/tuna" name="CarbonDev/android_device_samsung_tuna" />
-  <project path="device/samsung_slsi/arndale" name="device/samsung_slsi/arndale" groups="device" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="device/ti/panda" name="device/ti/panda" groups="device" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -365,30 +295,13 @@
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" remote="cm" revision="cm-10.2" groups="qcom" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" remote="cm" revision="cm-10.2" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" remote="cm" revision="cm-10.2" groups="pdk" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="cm" revision="cm-10.2" />
-  <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" remote="cm" revision="cm-10.2" groups="exynos5" />
   <project path="hardware/ti/omap3" name="CyanogenMod/android_hardware_ti_omap3" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" groups="omap4" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="cm" revision="cm-10.2" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="cm" revision="cm-10.2" />
-  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="cm" revision="cm-10.2" />
+  <project path="hardware/sony/DASH" name="CyanogenMod/android_hardware_sony_DASH" remote="cm" revision="cm-10.2" />
+  <project path="kernel/sony/apq8064" name="CyanogenMod/android_kernel_sony_apq8064" remote="cm" revision="cm-10.2" />
   <project path="kernel/google/msm" name="CarbonDev/android_kernel_google_msm" />
-  <project path="kernel/htc/endeavoru" name="CyanogenMod/android_kernel_htc_endeavoru" remote="cm" revision="cm-10.2" />
-  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="cm" revision="cm-10.2" />
-  <project path="kernel/htc/m7" name="CarbonDev/android_kernel_htc_m7" remote="cr" revision="jb3-tS" />
-  <project path="kernel/lge/mako" name="ParanoidAndroid/lge-kernel-mako" remote="gh" revision="jb43" />
-  <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" remote="cm" revision="cm-10.2" />
-  <project path="kernel/oppo/find5" name="CyanogenMod/android_kernel_oppo_find5" remote="cm" revision="cm-10.2-temp" />
-  <project path="kernel/samsung/crespo" name="CyanogenMod/android_kernel_samsung_crespo" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/dempsey" name="scotthartbti/cm_samsung_kernel_dempsey" remote="gh" revision="BS43" />
-  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/msm8660-common" name="CyanogenMod/android_kernel_samsung_msm8660-common" remote="cm" revision="cm-10.2" />
-  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="cm" revision="cm-10.2" />
-  <project path="libcore" name="CyanogenMod/android_libcore" remote="cm" revision="cm-10.2" />
-  <project path="libnativehelper" name="platform/libnativehelper" groups="pdk-java" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="packages/apps/Apollo" name="CyanogenMod/android_packages_apps_Apollo" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
@@ -407,7 +320,7 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="gh" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Gallery2" name="CarbonDev/android_packages_apps_Gallery2" />
+  <project path="packages/apps/Gallery2" name="reaper61616/android_packages_apps_Gallery2" />
   <project path="packages/apps/HALO" name="UltimatumKang/HALO" remote="gh" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
