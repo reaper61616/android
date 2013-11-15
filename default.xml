@@ -13,6 +13,7 @@
   <remote  name="cr"
            fetch="git://github.com/"
            review="review.carbon-rom.com"
+           revision="refs/heads/jb3"
            sync-j="4" />
 
   <remote  name="tm"
@@ -22,8 +23,8 @@
            fetch="https://github.com/"
            sync-j="4" />
 
-  <default revision="refs/heads/jb3"
-           remote="cr"
+  <default revision="master"
+           remote="gh"
            sync-j="4" />
 
   <project path="build" name="CarbonDev/android_build" groups="pdk" >
