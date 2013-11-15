@@ -42,7 +42,7 @@
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="developers/samples/android" name="platform/developers/samples/android" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="development" name="CarbonDev/android_development" />
-  <project path="device/sony/yuga" name="reaper61616/android_device_sony_yuga" remote="cm" revision="cm-10.2" />
+  <project path="device/sony/yuga" name="reaper61616/android_device_sony_yuga" remote="gh" />
   <project path="device/sony/common" name="CyanogenMod/android_device_sony_common" remote="cm" revision="cm-10.2" />
   <project path="device/sony/qcom-common" name="CyanogenMod/android_device_sony_qcom-common" remote="cm" revision="cm-10.2" />
   <project path="device/sony/fusion3-common" name="CyanogenMod/android_device_sony_fusion3-common" remote="cm" revision="cm-10.2" />
@@ -319,7 +319,7 @@
   <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="cm" revision="cm-10.2" />
   <project path="packages/apps/Email" name="SlimRoms/packages_apps_Email" remote="gh" revision="jb4.3" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="cm" revision="cm-10.2" />
-  <project path="packages/apps/Gallery2" name="reaper61616/android_packages_apps_Gallery2" />
+  <project path="packages/apps/Gallery2" name="reaper61616/android_packages_apps_Gallery2" remote="gh" />
   <project path="packages/apps/HALO" name="UltimatumKang/HALO" remote="gh" revision="master" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" remote="aosp" revision="refs/tags/android-4.3.1_r1" />
